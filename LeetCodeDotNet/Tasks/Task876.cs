@@ -7,23 +7,13 @@
     {
         public ListNode MiddleNode(ListNode head)
         {
-            int count = 0;
             var middleNode = head;
             var currentNode = head;
 
-            while (currentNode != null)
+            while (currentNode != null && currentNode.next != null)
             {
-                count++;
-
-                if (count % 2 == 0)
-                {
-                    if (middleNode.next is not null)
-                    {
-                        middleNode = middleNode.next;
-                    }
-                }
-
-                currentNode = currentNode.next;
+                middleNode = middleNode.next;
+                currentNode = currentNode.next.next;
             }
 
             return middleNode;
