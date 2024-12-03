@@ -11,9 +11,20 @@ namespace UnitTests.TasksTests
         [InlineData(14, 6)]
         [InlineData(8, 4)]
         [InlineData(123, 12)]
-        public void RunningSum_Should_Work_As_Expected(int input, int output)
+        public void NumberOfSteps_Should_Work_As_Expected(int input, int output)
         {
             var actualOutput = _sut.NumberOfSteps(input);
+
+            actualOutput.Should().Be(output);
+        }
+
+        [Theory]
+        [InlineData(14, 6)]
+        [InlineData(8, 4)]
+        [InlineData(123, 12)]
+        public void NumberOfStepsWithWhile_Should_Work_As_Expected(int input, int output)
+        {
+            var actualOutput = _sut.NumberOfStepsWithWhile(input);
 
             actualOutput.Should().Be(output);
         }
