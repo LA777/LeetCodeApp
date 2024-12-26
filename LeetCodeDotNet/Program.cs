@@ -1,5 +1,5 @@
 ﻿using BenchmarkDotNet.Running;
-using LeetCodeDotNet.Tasks;
+using LeetCodeDotNet.BeginnersGuide;
 
 namespace LeetCodeDotNet
 {

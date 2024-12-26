@@ -1,4 +1,4 @@
-﻿namespace LeetCodeDotNet.Tasks
+﻿namespace LeetCodeDotNet.BeginnersGuide
 {
     /// <summary>
     /// https://leetcode.com/problems/richest-customer-wealth/description/

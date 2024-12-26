@@ -1,7 +1,7 @@
 ﻿using FluentAssertions;
-using LeetCodeDotNet.Tasks;
+using LeetCodeDotNet.BeginnersGuide;
 
-namespace UnitTests.TasksTests
+namespace UnitTests.BeginnersGuideTests
 {
     public class Task412Tests
     {
