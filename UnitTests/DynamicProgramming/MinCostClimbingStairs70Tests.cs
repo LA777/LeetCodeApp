@@ -3,9 +3,9 @@ using LeetCodeDotNet.DynamicProgramming;
 
 namespace UnitTests.DynamicProgramming;
 
-public class MinCostClimbingStairsTests
+public class MinCostClimbingStairs70Tests
 {
-    private readonly MinCostClimbingStairs _sut = new ();
+    private readonly MinCostClimbingStairs70 _sut = new ();
 
     [Theory]
     [InlineData(0, 0)]

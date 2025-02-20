@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/problems/house-robber/description
 /// </summary>
-public class HouseRobber
+public class HouseRobber198
 {
     public int Rob(int[] numbers)
     {

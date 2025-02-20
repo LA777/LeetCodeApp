@@ -3,7 +3,7 @@
 /// <summary>
 /// https://leetcode.com/problems/climbing-stairs/description
 /// </summary>
-public class MinCostClimbingStairs
+public class MinCostClimbingStairs70
 {
     public int ClimbStairs(int n)
     {

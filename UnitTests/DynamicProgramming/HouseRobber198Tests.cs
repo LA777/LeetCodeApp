@@ -3,9 +3,9 @@ using LeetCodeDotNet.DynamicProgramming;
 
 namespace UnitTests.DynamicProgramming;
 
-public class HouseRobberTests
+public class HouseRobber198Tests
 {
-    private readonly HouseRobber _sut = new HouseRobber();
+    private readonly HouseRobber198 _sut = new ();
 
     [Theory]
     [InlineData(new[] { 9, 1, 1, 9, 9, 9}, 27)]
